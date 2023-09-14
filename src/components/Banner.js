@@ -11,8 +11,7 @@ const Banner = () => {
 					src="images/Vector 1.png"
 					className=" absolute top-0 right-0 "
 				/>
-				<button
-					className=" absolute top-6 right-6 lg:top-10 lg:right-10 rounded-full border text-xs lg:text-sm  border-white text-white p-2 px-4 ">
+				<button className=" absolute top-6 right-6 lg:top-10 lg:right-10 rounded-full border text-xs lg:text-sm  border-white text-white p-2 px-4 ">
 					Get in touch
 				</button>
 			</div>
@@ -25,7 +24,7 @@ const Banner = () => {
 				{/* content */}
 				<div className=" flex flex-col items-center space-y-8">
 					<span className=" text-center lg:text-left text-4xl text-[#0E2368] lg:text-6xl font-bold w-full lg:w-2/3">
-						Discover the
+						Discover the{" "}
 						<span className=" font-sans text-red-500 ">Best</span>{" "}
 						Food and Drinks
 					</span>
